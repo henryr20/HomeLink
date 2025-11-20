@@ -29,10 +29,10 @@ All data is handled locally in the browser using plain HTML, CSS, and JavaScript
 ---
 
 ## Project Structure
-/img → Images used across the project.
-/styles.css → Global stylesheet.
-/main-script.js → JavaScript logic (uList, summary, lightbox, etc.).
-/index.html → Main HTML document.
+- /img → Images used across the project
+- /styles.css → Global stylesheet
+- /main-script.js → JavaScript logic (uList, summary, lightbox, etc.)
+- /index.html → Main HTML document
 
 ---
 
