@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", parallax);
   parallax();
 
-  // -----------------------------
+  // --------------------------//
   // INITIALIZATION
-  // -----------------------------
+  // --------------------------//
   renderDeviceList();
   renderUserDeviceList();
   renderSummary();

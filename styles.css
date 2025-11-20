@@ -401,8 +401,8 @@ header a:hover {
   position: relative;
   display: flex;
   width: fit-content;
-  min-width: 22rem;
-  max-width: 22rem;
+  min-width: 18rem;
+  max-width: 28rem;
   max-height: 22rem;
   flex: 1;
   height: 23.4rem;
@@ -849,34 +849,42 @@ footer small {
     position: relative;
   }
 
-header ul {
-  position: absolute;
-  top: 200%;
-  right: -75%;
-  background-color: var(--bubble-bg-color);
-  border-radius: 24px;
-  padding: 1.25rem 1.75rem;
+  header ul {
+    position: absolute;
+    top: 200%;
+    right: -75%;
+    background-color: var(--bubble-bg-color);
+    border-radius: 24px;
+    padding: 1.25rem 1.75rem;
 
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
 
-  transition: max-height 1s ease, opacity 0.5s ease;
-}
+    transition: max-height 1s ease, opacity 0.5s ease;
+  }
 
-header ul.is-open {
-  max-height: 12rem;
-  opacity: 100;
-}
+  header ul.is-open {
+    max-height: 12rem;
+    opacity: 100;
+  }
 
   #dropdown-button {
     display: block;
   }
+
+  .gallery-item {
+    min-width: 17rem;
+    max-width: 22rem;
+    max-height: 16rem;
+
+  }
 }
+
 
 /* MOBILE (<= 640px) */
 
@@ -914,7 +922,7 @@ header ul.is-open {
   .device-price-tag {
     min-width: auto;
   }
- 
+
   .device-left-col {
     align-items: flex-start;
   }
@@ -933,5 +941,12 @@ header ul.is-open {
   .device-price-col {
     margin-left: 0;
     align-self: flex-end;
+  }
+
+  .gallery-item {
+    min-width: 12.5rem;
+    max-width: 16rem;
+    max-height: 16rem;
+
   }
 }
