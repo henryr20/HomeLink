@@ -124,7 +124,6 @@ header a:hover {
 
 #mobile-nav {
   display: none;
-  /* oculto en escritorio */
 }
 
 /* HERO */
@@ -965,4 +964,5 @@ footer small {
     max-height: 16rem;
 
   }
+
 }
